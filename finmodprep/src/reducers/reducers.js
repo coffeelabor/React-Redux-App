@@ -5,11 +5,11 @@ import {
 } from "../actions/actions";
 
 export const initialState = {
+  error: "",
+  isFetching: false,
   price: {
-    error: "",
-    stock: "",
-    price: "",
-    isFetching: false
+    symbol: "",
+    price: ""
   }
 };
 

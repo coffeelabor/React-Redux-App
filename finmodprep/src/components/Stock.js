@@ -1,10 +1,10 @@
 import React from "react";
-import { fetchStock } from "../actions/actions";
 
-const Stock = () => {
+const Stock = props => {
   return (
     <div>
-      <h2>Howdy</h2>
+      <h3>Hi</h3>
+      <h3>{props.name}</h3>
     </div>
   );
 };
